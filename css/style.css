@@ -19,22 +19,38 @@ header{}
 .arrow-top{margin-top:4px;}
 .main-content-wrapper{background:url(../images/vstopna_border_gori.png); background-repeat:repeat-x;margin-top: -1px;}
 .info-text{margin-top:40px}
-.green-button{}
+.green-button{max-width:100%;}
 .main-menu-wrapper{margin-top:100px;}
 .main-menu{color:white; list-style:none; font-size:11px; margin-left:30px; }
 .main-menu-heading{color:white; margin-bottom:20px; font-size:13px; font-weight:bold;}
-.arrow-bottom{margin-bottom:-2px;}
-.footer-line{background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
+.arrow-bottom{top: 11px;position: relative;}
+.footer-line{position: relative;top: 7px;background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
 
+.fls{padding:0;}
+.btn_green{
 
-.btn_green{background-color:#427939; color:white; width:300px;max-width:100%;    padding: 20px 8px;
-    text-align: center;
-    font-size: 30px;}
+	-moz-box-shadow: 0 0 5px #fff;
+-webkit-box-shadow: 0 0 5px #fff;
+box-shadow: 0px 0px 5px #fff;
+background-color:#427939; color:white; width:240px;max-width:100%;padding: 10px 8px;font-size: 30px;
+/* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84c352), to(#427539));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #84c352, #427539);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #84c352, #427539);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #84c352, #427539);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #84c352, #427539);
+font-weight:700;
+color:white;}
 .green-button ul li{list-style:none;}
-.blink { color: white !important;background:#427939!important;font-weight:600;}
-
-.main-menu a,a:hover,a:active,a:visited{text-decoration: none; color:white;}
-.test-button{ /* Safari 4-5, Chrome 1-9 */
+.blink { /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84c352), to(#427539));
 
   /* Safari 5.1, Chrome 10+ */
@@ -50,5 +66,14 @@ header{}
   background: -o-linear-gradient(top, #84c352, #427539);
 
 color:white;
+    text-shadow: 0px 0px 10px whitesmoke;
 }
 
+.main-menu a,a:hover,a:active,a:visited{text-decoration: none; color:white;}
+
+.arrws{background-image:url('../images/arrws.png');background-repeat:no-repeat;height:24px;
+	width: 20px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 15px;
+    margin-top: 7px;}
