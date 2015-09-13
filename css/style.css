@@ -1,4 +1,4 @@
-body{background:url(../images/bg.jpg); background-repeat:no-repeat; background-size: cover;}
+body{background:url(../images/bg.jpg); background-repeat:no-repeat; background-size: cover; overflow-y: hidden;}
      /*background-position: 0px -82px;*/ 
 header{}
 .header-wrapper{background:url(../images/vstopna_crni_pas_gori.png)center;background-repeat: no-repeat;width: 100%;background-size: cover;padding:10px 0 0 0;}
