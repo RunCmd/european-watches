@@ -1,0 +1,27 @@
+body{background:url(../images/bg.jpg); background-repeat:no-repeat; background-size: cover;}
+     /*background-position: 0px -82px;*/ 
+header{}
+.header-wrapper{background:url(../images/vstopna_crni_pas_gori.png)center;background-repeat: no-repeat;width: 100%;background-size: cover;padding:10px 0 0 0;}
+
+/*Flags menu*/
+.flags-container{margin:30px 0 10px 0}
+.flags-menu{list-style: none; margin-bottom:0px!important;}
+.flags-menu li{display:inline-block; margin-left:3px;}
+.flag {width: 22px;height: 14px;border: none;background: url(../images/flags.png) no-repeat;}
+.flag.flag-gb { background-position: 0 0 }
+.flag.flag-de { background-position: -30px 0 }
+.flag.flag-it { background-position: -61px 0 }
+.flag.flag-sp { background-position: -91px 0 }
+.flag.flag-po { background-position: -120px 0 }
+.flag.flag-at { background-position: -148px 0 }
+/*End flags menu*/
+.header-line{width:100%; margin-top:-2px;}
+.arrow-top{margin-top:4px;}
+.main-content-wrapper{background:url(../images/vstopna_border_gori.png); background-repeat:repeat-x;margin-top: -1px;}
+.info-text{margin-top:40px}
+.green-button{}
+.main-menu-wrapper{margin-top:100px;}
+.main-menu{color:white; list-style:none; font-size:11px; margin-left:30px; }
+.main-menu-heading{color:white; margin-bottom:20px; font-size:13px; font-weight:bold;}
+.arrow-bottom{margin-bottom:-2px;}
+.footer-line{background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
