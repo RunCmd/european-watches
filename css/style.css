@@ -26,8 +26,29 @@ header{}
 .arrow-bottom{margin-bottom:-2px;}
 .footer-line{background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
 
+
 .btn_green{background-color:#427939; color:white; width:300px;max-width:100%;    padding: 20px 8px;
     text-align: center;
     font-size: 30px;}
 .green-button ul li{list-style:none;}
 .blink { color: white !important;background:#427939!important;font-weight:600;}
+
+.main-menu a,a:hover,a:active,a:visited{text-decoration: none; color:white;}
+.test-button{ /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84c352), to(#427539));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #84c352, #427539);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #84c352, #427539);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #84c352, #427539);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #84c352, #427539);
+
+color:white;
+}
+
