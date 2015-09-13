@@ -26,7 +26,7 @@ header{}
 .arrow-bottom{top: 11px;position: relative;}
 .footer-line{position: relative;top: 7px;background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
 
-.fls{padding:0;}
+.d_blink{padding:0;}
 .btn_green{
 
 	-moz-box-shadow: 0 0 5px #fff;
@@ -71,7 +71,7 @@ color:white;
 
 .main-menu a,a:hover,a:active,a:visited{text-decoration: none; color:white;}
 
-.arrws{background-image:url('../images/arrws.png');background-repeat:no-repeat;height:24px;
+.click_arrows{background-image:url('../images/arrws.png');background-repeat:no-repeat;height:24px;
 	width: 20px;
     position: absolute;
     max-width: 100%;

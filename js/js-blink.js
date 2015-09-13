@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //call the blink function on the element you 
-    blink(".fls > li:first", -1, 750); //blink the first element in an ordered list (infinite times)
+    blink(".d_blink > li:first", -1, 750); //blink the first element in an ordered list (infinite times)
 });
 
 /**
