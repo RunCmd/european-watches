@@ -1,4 +1,4 @@
-body{background:url(../images/bg.jpg); background-repeat:no-repeat; background-size: cover; overflow-y: hidden;}
+body{background:url(../images/bg.jpg); background-repeat:no-repeat; background-size: cover; /*overflow-y: hidden;*/ }
      /*background-position: 0px -82px;*/ 
 header{}
 .header-wrapper{background:url(../images/vstopna_crni_pas_gori.png)center;background-repeat: no-repeat;width: 100%;background-size: cover;padding:10px 0 0 0;}
@@ -25,3 +25,9 @@ header{}
 .main-menu-heading{color:white; margin-bottom:20px; font-size:13px; font-weight:bold;}
 .arrow-bottom{margin-bottom:-2px;}
 .footer-line{background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
+
+.btn_green{background-color:#427939; color:white; width:300px;max-width:100%;    padding: 20px 8px;
+    text-align: center;
+    font-size: 30px;}
+.green-button ul li{list-style:none;}
+.blink { color: white !important;background:#427939!important;font-weight:600;}
