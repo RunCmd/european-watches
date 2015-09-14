@@ -23,8 +23,8 @@ header{}
 .main-menu-wrapper{margin-top:100px;}
 .main-menu{background-color: #0C0C0C;opacity: 0.8;color:white; list-style:none; font-size:12px; margin-left:30px; }
 .main-menu-heading{color:white; margin-bottom:20px; font-size:13px; font-weight:bold;}
-.arrow-bottom{top: 11px;position: relative;}
-.footer-line{position: relative;top: 7px;background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
+.arrow-bottom{top: 2px;position: relative;}
+.footer-line{position: fixed;bottom: 0px;background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
 
 .d_blink{padding:0;}
 .btn_green{
@@ -73,3 +73,9 @@ color:white;
     max-width: 100%;
     margin-left: 15px;
     margin-top: 7px;}
+
+
+@media (max-width:1200px){
+	.footer-line{position: relative;top: 7px;background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
+.arrow-bottom{top: 11px;position: relative;}
+}
