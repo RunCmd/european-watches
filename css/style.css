@@ -1,4 +1,4 @@
-body{background:url(../images/bg.jpg); background-repeat:no-repeat; background-size: cover; /*overflow-y: hidden;*/ }
+body{background:url(../images/bg.jpg)center center fixed; background-repeat:no-repeat; background-size: cover; /*overflow-y: hidden;*/ }
      /*background-position: 0px -82px;*/ 
 header{}
 .header-wrapper{background:url(../images/vstopna_crni_pas_gori.png)center;background-repeat: no-repeat;width: 100%;background-size: cover;padding:10px 0 0 0;}
@@ -21,15 +21,13 @@ header{}
 .info-text{margin-top:40px}
 .green-button{max-width:100%;}
 .main-menu-wrapper{margin-top:100px;}
-.main-menu{color:white; list-style:none; font-size:11px; margin-left:30px; }
+.main-menu{background-color: #0C0C0C;opacity: 0.8;color:white; list-style:none; font-size:12px; margin-left:30px; }
 .main-menu-heading{color:white; margin-bottom:20px; font-size:13px; font-weight:bold;}
 .arrow-bottom{top: 11px;position: relative;}
 .footer-line{position: relative;top: 7px;background:url(../images/vstopna_border_doli.png); background-repeat:repeat-x;width:100%; color:white; padding:5px 0}
 
 .d_blink{padding:0;}
 .btn_green{
-
-	
 background-color:#427939; color:white; width:240px;max-width:100%;padding: 10px 8px;font-size: 30px;
 /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84c352), to(#427539));
