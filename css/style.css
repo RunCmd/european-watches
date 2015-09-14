@@ -28,6 +28,12 @@ header{}
 
 .d_blink{padding:0;}
 .btn_green{
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	
+
 background-color:#427939; color:white; width:240px;max-width:100%;padding: 10px 8px;font-size: 30px;
 /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84c352), to(#427539));
@@ -46,6 +52,7 @@ background-color:#427939; color:white; width:240px;max-width:100%;padding: 10px 
 font-weight:700;
 color:white;}
 .green-button ul li{list-style:none;}
+.green-button a,a:hover,a:active,a:visited{text-decoration: none; color:white;}
 .blink { /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84c352), to(#427539));
 
@@ -63,6 +70,10 @@ color:white;}
 
 color:white;
     text-shadow: 0px 0px 10px whitesmoke;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 .main-menu a,a:hover,a:active,a:visited{text-decoration: none; color:white;}
